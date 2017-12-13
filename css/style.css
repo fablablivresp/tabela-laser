@@ -82,6 +82,18 @@ body {
 	display: table-row-group;
 }
 
+.column01 {
+	width: 55%;
+}
+
+.column02 {
+	width: 30%;
+}
+
+.column03 {
+	width: 15%;
+}
+
 .yes {
 	background-color: rgba(0, 180, 0, 0.3);
 }
