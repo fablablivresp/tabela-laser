@@ -3,13 +3,23 @@ body {
 	color: #fff;
 }
 
+#fablablivresp {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#fablablivresp img {
+	height: 6vw;
+}
+
 #title {
 	margin-top: 10vh;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 900;
 	letter-spacing: 7px;
-	text-transform: uppercase;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #title h1 {
@@ -29,16 +39,20 @@ body {
 	border-bottom: 1px #efefef solid;
 	padding-bottom: 30px;
 	font-family: 'Share Tech Mono', monospace;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+}
+
+#description a {
+	color: inherit;
 }
 
 #infotable {
 	width: 60vw;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 35px;
 	font-family: 'Share Tech Mono', monospace;
 	text-transform: uppercase;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 }
 
 .divTable{
@@ -61,5 +75,17 @@ body {
 }
 
 .divTableHeading {
-	background-color:rgba(50, 50, 50, 0.4);
+	background-color:rgba(50, 50, 50, 0.5);
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.yes {
+	background-color: rgba(0, 180, 0, 0.3);
+}
+
+.no {
+	background-color: rgba(200, 0, 0, 0.5);
 }
