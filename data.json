@@ -1,0 +1,7 @@
+{
+	"exemplo01" : {
+		"name" : "Exemplo 01",
+		"permission" : "no",
+		"why" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla volutpat cursus. Proin cursus ornare molestie. Duis a lectus purus. Etiam consequat hendrerit metus. Sed nec tempor neque. Praesent porta pellentesque tellus, vitae convallis ex efficitur vitae. Aenean pellentesque tempor metus, at aliquam mi efficitur in. Quisque nec tempor enim. Maecenas sit amet venenatis velit. Etiam diam nisi, euismod at tellus vel, ultricies placerat felis. Duis eros orci, sagittis ac ipsum non, pretium condimentum felis. Quisque finibus augue nunc, ac consequat libero malesuada et. Nam malesuada, mauris ut scelerisque eleifend, purus velit porta elit, sit amet lacinia lacus neque et elit."
+	}
+}
