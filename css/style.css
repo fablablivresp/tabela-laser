@@ -39,7 +39,7 @@ body {
 	border-bottom: 1px #efefef solid;
 	padding-bottom: 30px;
 	font-family: 'Share Tech Mono', monospace;
-    font-size: 1.3vw;
+    font-size: 1.25vw;
 }
 
 #description a {
@@ -50,6 +50,7 @@ body {
 	width: 60vw;
 	margin: 0 auto;
 	margin-top: 35px;
+	font-size: 1.25vw;
 	font-family: 'Share Tech Mono', monospace;
 	text-transform: uppercase;
 	margin-bottom: 100px;
@@ -150,4 +151,51 @@ body {
 	opacity: 0;
 	padding: 5px;
 	background-color:#F2784B;
+}
+
+@media screen and (max-aspect-ratio: 9/10){
+
+	#fablablivresp {
+		position: absolute;
+		height: 6vh;
+		top: 10px;
+		right: 20px;
+	}
+
+	#fablablivresp img {
+		height: 6vh;
+	}
+
+	#title {
+		margin-top: 8vh;
+	}
+
+	#title h1 {
+		font-size: 14vw;
+	}
+
+	#title h2 {
+		font-size: 6vw;
+	}
+
+	#description {
+		width: 85vw;
+		font-size: 3.8vw;
+	}
+
+	#infotable {
+		margin-top: 30px;
+		width: 85vw;
+		font-size: 3.8vw;
+	}
+
+	#box_justification {
+		width: 70vw;
+		font-size: 3.8vw;
+	}
+
+	#close_justification {
+		font-size: 3vw;
+	}
+
 }
