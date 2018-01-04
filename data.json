@@ -8,43 +8,43 @@
 	"pla" : {
 		"name" : "PLA (Ácido Polilático)",
 		"permission" : "yes",
-		"why" : "Referência:\n http://3dfilaprint.com/wp-content/uploads/2013/08/Repraper-PLA-MSDS.pdf"
+		"why" : "Não são esperados efeitos noscivos provenientes dos compostos liberados pela combustão do PLA. Tais compostos são, basicamente, monóxido e dióxido de carbono.  \nReferência:\n http://3dfilaprint.com/wp-content/uploads/2013/08/Repraper-PLA-MSDS.pdf"
 	},
 
 	"pet" : {
 		"name" : "PET (ou PETE) (Polietileno tereftalato)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
+		"why" : "A combustão do PET libera vapores e gáses tóxicos: amonia; monoxido de carbono; cianeto de hidrogênio; e aldeídos. Na eventualidade da exposição a fumaça, remova a pessoa afetada da área contaminada e leve-a para uma área com grande ventilação de ar. Caso tosse, dificuldade de respiração ou qualquer outro sintoma se manifestem, procure imediatamente auxílio médico. \n \n Referência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
 	},
 
 	"hdpeldpe" : {
 		"name" : "HDPE/LDPE (High/Low Density Polyethylene)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n http://msdssearch.dow.com/PublishedLiteratureDOWCOM/dh_091f/0901b8038091f9d5.pdf?filepath=productsafety/pdfs/noreg/233-00577.pdf&fromPage=GetDoc"
+		"why" : "Vapores da resina aquecida e vapores liberados na compustão são irritantes para os tratos respiratórios e para os olhos. Compostos liberados podem incluir: aldeídos, alcools, ácidos orgânicos; e hidrocarbonetos.\n \nReferência:\n http://msdssearch.dow.com/PublishedLiteratureDOWCOM/dh_091f/0901b8038091f9d5.pdf?filepath=productsafety/pdfs/noreg/233-00577.pdf&fromPage=GetDoc"
 	},
 
 	"pvc" : {
 		"name" : "PVC (Cloreto de Polivinila) ",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
+		"why" : "A combustão do PVC libera uma fumaça densa, escura, irritante e tóxica, composta principalmente por: monoxido de carbono; dioxido de carbono; e Ácido Clorídrico. Além disso, dependendo dos aditivos usados na fabricação, metais e outros componentes tóxicos podem estar presentes. O Ácido Clorídirco, além de prejudicial a saúde, pode danificar o equipamento. \n \n Referência:\n https://www.qubicaamf.com/msds-forms/forms/gutter-coverboard-capping-en.pdf"
 	},
 
 	"pp" : {
 		"name" : "PP (polipropileno)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n https://www.acplasticsinc.com/techsheets/Polypropylene_MSDS.pdf"
+		"why" : " \n \n Referência:\n https://www.acplasticsinc.com/techsheets/Polypropylene_MSDS.pdf"
 	},
 
 	"pc" : {
 		"name" : "PC (policarbonato)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n https://www."
+		"why" : " \n \n Referência:\n https://www."
 	},
 
 	"ps" : {
 		"name" : "PS (poliestireno)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n http://www.southlandpolymers.com/pdf/polysty/Denka%20MSDS%20MW1.pdf"
+		"why" : " \n \n Referência:\n http://www.southlandpolymers.com/pdf/polysty/Denka%20MSDS%20MW1.pdf"
 	},
 
 	"acetato" : {
