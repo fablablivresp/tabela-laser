@@ -1,7 +1,68 @@
 {
-	"exemplo01" : {
-		"name" : "Exemplo 01",
+	"abs" : {
+		"name" : "ABS (Acrilonitrila Butadieno Estireno)",
 		"permission" : "no",
-		"why" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla volutpat cursus. Proin cursus ornare molestie. Duis a lectus purus. Etiam consequat hendrerit metus. Sed nec tempor neque. Praesent porta pellentesque tellus, vitae convallis ex efficitur vitae. Aenean pellentesque tempor metus, at aliquam mi efficitur in. Quisque nec tempor enim. Maecenas sit amet venenatis velit. Etiam diam nisi, euismod at tellus vel, ultricies placerat felis. Duis eros orci, sagittis ac ipsum non, pretium condimentum felis. Quisque finibus augue nunc, ac consequat libero malesuada et. Nam malesuada, mauris ut scelerisque eleifend, purus velit porta elit, sit amet lacinia lacus neque et elit."
+		"why" : "O ABS, em calor extremo entra rapidamente em combustão, liberando uma fumaça densa, escura, irritante e tóxica, que pode ser composta por: monoxido de carbono; dioxido de carbono; cianeto de hidrogênio; estireno; ethilbenzeno; acrilonitrila; entre outros.\n Em caso de inalação, imediatamente remova a pessoa afetada para um local arejado, desafroche cintos, colares e roupas apertadas para facilitar a respiração, e procure atenção médica caso a pessoa apresente de forma prolongada algum dos seguintes sintomas: dificuldade de respirar, inconsciência, dores ao respirar, dores de cabeça. Em caso de exposição prolongada ou intensa, pode provocar edema pulmonar atrasado: procure imediatamente auxílio médico.  \n\nReferência:\n http://www.alro.com/datapdf/plastics/plasticsmsds/sds_king_abs.pdf "
+	},
+	
+	"pla" : {
+		"name" : "PLA (Ácido Polilático)",
+		"permission" : "yes",
+		"why" : "Referência:\n http://3dfilaprint.com/wp-content/uploads/2013/08/Repraper-PLA-MSDS.pdf"
+	},
+
+	"pet" : {
+		"name" : "PET (ou PETE) (Polietileno tereftalato)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
+	},
+
+	"hdpeldpe" : {
+		"name" : "HDPE/LDPE (High/Low Density Polyethylene)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n http://msdssearch.dow.com/PublishedLiteratureDOWCOM/dh_091f/0901b8038091f9d5.pdf?filepath=productsafety/pdfs/noreg/233-00577.pdf&fromPage=GetDoc"
+	},
+
+	"pvc" : {
+		"name" : "PVC (Cloreto de Polivinila) ",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
+	},
+
+	"pp" : {
+		"name" : "PP (polipropileno)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n https://www.acplasticsinc.com/techsheets/Polypropylene_MSDS.pdf"
+	},
+
+	"pc" : {
+		"name" : "PC (policarbonato)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n https://www."
+	},
+
+	"ps" : {
+		"name" : "PS (poliestireno)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n http://www.southlandpolymers.com/pdf/polysty/Denka%20MSDS%20MW1.pdf"
+	},
+
+	"acetato" : {
+		"name" : "Acetato (Acetato de Celulose)",
+		"permission" : "no",
+		"why" : " \n\nReferência:\n http://www.sciencelab.com/msds.php?msdsId=956"
+	},
+
+	"mdf" : {
+		"name" : "MDF (Medium Density Fiberboard)",
+		"permission" : "yes",
+		"why" : " \n\nReferência:\n https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product/3ff123e2-5b98-45c4-9abd-5697216be4ea.pdf"
+	},
+
+	"acrcilico" : {
+		"name" : "Acrílico (PMMA - Metacrilato de Polimetíl)",
+		"permission" : "yes",
+		"why" : " \n\nReferência:\n http://www.ampolymer.com/SDS/PolymethylMethacrylateSDS.html"
 	}
 }
+
