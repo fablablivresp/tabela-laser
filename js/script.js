@@ -5,10 +5,13 @@ var data;
 $(document).ready(function(){
 	
 	loadJSONfile(function(response){
+
 		data = JSON.parse(response);
+		var sorted_keys = sortDataByName();
+
 		createTable();
 		createTableHeader();
-		createTableCells();
+		createTableCells(sorted_keys);
 	});
 
 });
@@ -27,6 +30,15 @@ function loadJSONfile(callback) {
 	request.send(null);
 }
 
+function sortDataByName() {
+	var keys = [];
+
+	for (var key in data) {
+		keys.push(key);
+	}
+	return keys.sort();
+}
+
 function createTable() {
 	$("#infotable").append("<div class='divTable'></div>");
 	$(".divTable").append("<div class='divTableBody'></div>");
@@ -39,16 +51,16 @@ function createTableHeader() {
 	$("#header").append("<div class='divTableCell divTableHeading column03'>Por quê?</div>");
 }
 
-function createTableCells() {
-	how_many_keys = Object.keys(data).length;
+function createTableCells(keys) {
 	counter = 1;
 
-	for (var key in data) {
+	for (var index in keys) {
+		
 		$(".divTableBody").append("<div id='row" + counter + "' class='divTableRow'></div>");
 
-		$("#row" + counter).append("<div class='divTableCell column01'>" + data[key].name + "</div>");
-		$("#row" + counter).append("<div class='divTableCell column02 " + data[key].permission + "'>" + loadPermission(data[key].permission) + "</div>");
-		$("#row" + counter).append("<div id='button_" + key + "' class='divTableCell column03 justification'>+</div>");
+		$("#row" + counter).append("<div class='divTableCell column01'>" + data[keys[index]].name + "</div>");
+		$("#row" + counter).append("<div class='divTableCell column02 " + data[keys[index]].permission + "'>" + loadPermission(data[keys[index]].permission) + "</div>");
+		$("#row" + counter).append("<div id='button_" + keys[index] + "' class='divTableCell column03 justification'>+</div>");
 
 		counter = counter + 1;
 	}
