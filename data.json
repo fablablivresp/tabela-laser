@@ -12,7 +12,7 @@
 	},
 
 	"pet" : {
-		"name" : "PET (ou PETE) (Polietileno tereftalato)",
+		"name" : "PET/PETE (Polietileno tereftalato)",
 		"permission" : "no",
 		"why" : "A combustão do PET libera vapores e gáses tóxicos: amonia; monoxido de carbono; cianeto de hidrogênio; e aldeídos. Na eventualidade da exposição a fumaça, remova a pessoa afetada da área contaminada e leve-a para uma área com grande ventilação de ar. Caso tosse, dificuldade de respiração ou qualquer outro sintoma se manifestem, procure imediatamente auxílio médico. \n \n Referência:\n https://wcam.engr.wisc.edu/Public/Safety/MSDS/Polyethylene%20Terephthalate%20(PET).pdf"
 	},
