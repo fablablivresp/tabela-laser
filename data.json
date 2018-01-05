@@ -32,37 +32,37 @@
 	"pp" : {
 		"name" : "PP (polipropileno)",
 		"permission" : "no",
-		"why" : " \n \n Referência:\n https://www.acplasticsinc.com/techsheets/Polypropylene_MSDS.pdf"
+		"why" : "É um plástico de queima relativamente lenta que emite uma fumaça densa e preta. Os produtos de sua combustão e de seu aquecimento são irritantes para o trato respiratório e para os olhos. \n \n Referência:\n https://www.acplasticsinc.com/techsheets/Polypropylene_MSDS.pdf"
 	},
 
 	"pc" : {
 		"name" : "PC (policarbonato)",
 		"permission" : "no",
-		"why" : " \n \n Referência:\n https://www."
+		"why" : "Os gases e vapores tóxicos são liberados durante a queima e a decomposição térmica causam irritação nos tratos respiratórios. Em caso de exposição, mova a pessoa afetada para uma área ventilada, aplique oxigênio ou aparelhos de respiração artificial, de acordo com a necessidade, e procure auxílio médico. \n \n Referência:\n http://web.mit.edu/rocketteam/www/usli/MSDS/Polycarbonate.pdf"
 	},
 
 	"ps" : {
 		"name" : "PS (poliestireno)",
 		"permission" : "no",
-		"why" : " \n \n Referência:\n http://www.southlandpolymers.com/pdf/polysty/Denka%20MSDS%20MW1.pdf"
+		"why" : "Em caso de aquecimento e combustão, o poliestireno se decompõe, liberando monomero de estireno, monóxido de carbono e dióxido de carbno, além de aditivos que sejam voláteis. \n \n Referência:\n http://www.southlandpolymers.com/pdf/polysty/Denka%20MSDS%20MW1.pdf"
 	},
 
 	"acetato" : {
 		"name" : "Acetato (Acetato de Celulose)",
 		"permission" : "no",
-		"why" : " \n\nReferência:\n http://www.sciencelab.com/msds.php?msdsId=956"
+		"why" : "A decomposição térmica e a combustão do Acetato de Celulose liberam fumaças e vapores altamente tóxicos. Em caso de exposição, remova imediatamente da área contaminada. Caso a pessoa esteja com impossibilidade de respirar, aplique respiração artificial. Na dificuldade de respiração, use oxigênio. Procure auxílio médico caso tosse ou outros sintomas apareçam. \n\nReferência:\n http://www.sciencelab.com/msds.php?msdsId=956"
 	},
 
 	"mdf" : {
 		"name" : "MDF (Medium Density Fiberboard)",
 		"permission" : "yes",
-		"why" : " \n\nReferência:\n https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product/3ff123e2-5b98-45c4-9abd-5697216be4ea.pdf"
+		"why" : "***ATENÇÃO*** Cortar somente com ventilação adequada, com a exaustão em funcionamento e com filtros adequados. O gás formaldeído é liberado pela resina que constitui o MDF em algumas condições particulares, como na laminação ou durante o corte a laser. Entretanto, em locais com ventilação adequada e com sistema de exaustão, é muito improvável que exceda a concentração estabelecida pela Organização Mundial da Saúde de 0,1 ppm  \n\nReferência:\n https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product/3ff123e2-5b98-45c4-9abd-5697216be4ea.pdf"
 	},
 
 	"acrcilico" : {
 		"name" : "Acrílico (PMMA - Metacrilato de Polimetíl)",
 		"permission" : "yes",
-		"why" : " \n\nReferência:\n http://www.ampolymer.com/SDS/PolymethylMethacrylateSDS.html"
+		"why" : "***ATENÇÃO*** Cortar somente com ventilação adequada, com a exaustão em funcionamento e com filtros adequados. A combustão do acrílico, por liberar monoxido e dióxido de carbono, pode causar irritação do trato respiratório. Porém em locais com ventilação adequada e com sistema de exaustão, é muito improvável a concentração chegue a níveis prejudiciais. \n\nReferência:\n http://www.ampolymer.com/SDS/PolymethylMethacrylateSDS.html"
 	}
 }
 
