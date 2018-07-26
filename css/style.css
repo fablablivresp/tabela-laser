@@ -156,14 +156,7 @@ body {
 @media screen and (max-aspect-ratio: 9/10) {
 
 	#fablablivresp {
-		position: absolute;
-		height: 6vh;
-		top: 10px;
-		right: 20px;
-	}
-
-	#fablablivresp img {
-		height: 6vh;
+		display: none;
 	}
 
 	#title {
