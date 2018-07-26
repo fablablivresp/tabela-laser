@@ -1,5 +1,5 @@
 body {
-	background: #70e0e9 url(../img/overlay.png);
+	background: #b2b2b2 url(../img/overlay.png);
 	color: #fff;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #title h1 {
 	font-size: 8vw;
-	margin: 0;	
+	margin: 0;
 }
 
 #title h2 {
@@ -39,7 +39,7 @@ body {
 	border-bottom: 1px #efefef solid;
 	padding-bottom: 30px;
 	font-family: 'Share Tech Mono', monospace;
-    font-size: 1.25vw;
+  font-size: 1.3vw;
 }
 
 #description a {
@@ -64,12 +64,16 @@ body {
 	text-align: center;
 }
 
+.divTableBody {
+	display: table-row-group;
+}
+
 .divTableRow {
 	display: table-row;
 }
 
 .divTableCell {
-	border: 2px solid #70e0e9;
+	border: 2px solid #b2b2b2;
 	display: table-cell;
 	padding: 10px 10px;
 	background-color:rgba(50, 50, 50, 0.2);
@@ -77,10 +81,6 @@ body {
 
 .divTableHeading {
 	background-color:rgba(50, 50, 50, 0.5);
-}
-
-.divTableBody {
-	display: table-row-group;
 }
 
 .column01 {
