@@ -1,5 +1,5 @@
 body {
-	background: #b2b2b2 url(../img/overlay.png);
+	background: rgb(63, 183, 177) url(../img/overlay.png);
 	color: #fff;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .divTableCell {
-	border: 2px solid #b2b2b2;
+	border: 2px solid rgb(63, 183, 177);
 	display: table-cell;
 	padding: 10px 10px;
 	background-color:rgba(50, 50, 50, 0.2);

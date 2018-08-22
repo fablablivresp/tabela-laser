@@ -1,9 +1,9 @@
 var info_shown = false;
 
-var data; 
+var data;
 
 $(document).ready(function(){
-	
+
 	loadJSONfile(function(response){
 
 		data = JSON.parse(response);
@@ -55,7 +55,7 @@ function createTableCells(keys) {
 	counter = 1;
 
 	for (var index in keys) {
-		
+
 		$(".divTableBody").append("<div id='row" + counter + "' class='divTableRow'></div>");
 
 		$("#row" + counter).append("<div class='divTableCell column01'>" + data[keys[index]].name + "</div>");
@@ -100,7 +100,7 @@ $(document).on('click', '#bg_justification', function() {
 $(document).on('click', '.justification', function(e) {
 	info_shown = true;
 	key = e.currentTarget.id.split("_")[1];
-	
+
 	$("body").append("<div id='bg_justification'></div>");
 
 	if (data[key].permission == "yes") {
@@ -120,7 +120,7 @@ $(document).on('click', '.justification', function(e) {
 });
 
 $(document).keyup(function(e) {
-     if (e.keyCode == 27 || e.keyCode == 13) { 
+     if (e.keyCode == 27 || e.keyCode == 13) {
      	removeTable();
     }
 });
